@@ -1,16 +1,13 @@
-# search_app
+This Flutter project demonstrates building a responsive and interactive image search application using the Pexels API. Users can search for images by keywords, view animated icons, and explore results displayed in a grid layout.
 
-A new Flutter project.
+Features
 
-## Getting Started
+Search Bar: Allows users to search for images by entering keywords.
 
-This project is a starting point for a Flutter application.
+Pexels API Integration: Fetches high-quality images from the Pexels API.
 
-A few resources to get you started if this is your first Flutter project:
+Animated Icons: Smooth horizontal scrolling animation for icons at the top.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Dynamic Grid Layout: Displays search results in a responsive grid.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Error Handling: Handles API errors gracefully and logs details for debugging.
