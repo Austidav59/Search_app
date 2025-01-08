@@ -12,7 +12,7 @@ Future<List<String>> pexelsApi(String query, int page) async {
       "https://api.pexels.com/v1/search?query=$query&per_page=13&page=$page");
   var response = await http.get(url, headers: {
     'Authorization':
-        'khOF95gCkMbfgkXUbzDV3zl2QphMdxlpCGCePGAvdYNZ3bCFq9aH3eXL', // Use your actual API key here
+        'khOF95gCkMbfgkXUbzDV3zl2QphMdxlpCGCePGAvdYNZ3bCFq9aH3eXL',
   });
 
   if (response.statusCode == 200) {
